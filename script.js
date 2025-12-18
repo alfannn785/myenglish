@@ -5,12 +5,14 @@ function playAudio(type) {
     audio.src = "eat.mp3";
   } else if (type === "drink") {
     audio.src = "drink.mp3";
-  } else if (type === "hello.mp3") {
-    audio.src = "helo.mp3";
+  } else if (type === "hello") {
+    audio.src = "hello.mp3";
   }
 
   audio.play();
 }
 
+
   
+
 
